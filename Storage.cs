@@ -33,7 +33,7 @@ public class Storage : Dictionary<Molecule, int>
         storage[Molecule.E] = int.Parse(inputs[4]);
     }
 
-    public int Available(Molecule m)
+    public int AvailableCount(Molecule m)
     {
         return storage[m];
     }
