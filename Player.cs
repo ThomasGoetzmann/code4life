@@ -6,6 +6,7 @@ public class Player
     static void Main(string[] args)
     {
         // Console.Error.WriteLine(Environment.Version); //Shows the dotnet runtime version used by Codingame if needed.
+        var projects = GetScientificProjects();
         var storage = new Storage();
         var myRobot = new Robot(storage);
         var opponentRobot = new Robot(storage);
